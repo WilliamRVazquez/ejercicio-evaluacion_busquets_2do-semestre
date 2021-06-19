@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>	
+    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    
+        <title>Ejercicio de evaluación</title>
+    </head>
+    <body>
+    
+        <div class="container m-2">
+            <h3>Conversión de Unidades </h3>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <label for="sistema" class="input-group-text">Unidades</label>
+                </div>
+                <select id="sistema" class="custom-select form-select">
+                        <option value="---">Selecciona Unidades a convertir.</option>
+                        <option value="1">temperatura (ºF -> ºC)</option>
+                        <option value="2">temperatura (ºF <- ºC)</option>
+                        <option value="3">peso (Kilogramos -> Libras)</option>
+                        <option value="4">peso (Kilogramos <- Libras)</option>
+                        <option value="5">volumen (Litros -> Galones)</option>
+                        <option value="6">volumen (Litros <- Galones)</option>
+                        <option value="7">longitud (Centímetros -> Pulgadas)</option>
+                        <option value="8">longitud (Centimetros <- Pulgadas)</option>
+                </select>
+            </div>
+        </div>
+    <br>
+    <hr>
+    <br>
+        <div class="container m-2">
+            <form action="" id="form-sistema">
+                
+            </form>
+        </div>
+    
+        <div class="container m-2 mt-4" role="alert">
+            <div class="alert alert-success" role="alert">
+                <small><b>Resultado</b></small>
+                <p id="resultado">
+                    
+                </p>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+	    <script src="app.js"></script>
+
+</body>
+</html>
